@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "emotion-storage-server"
+version = "0.1.0"
+description = ""
+authors = ["Knotty"]
+readme = "README.md"
+packages = [{include = "emotion_storage_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.99.0"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
